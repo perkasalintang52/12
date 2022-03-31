@@ -13,7 +13,7 @@ let handler  = async (m, { conn, usedPrefix }) => {
   let str = `
 ╭═══════════════════════
 ║╭─❉〘 ${package.name} 〙❉─
-║│➸ *Versi* : 1.5.0
+║│➸ *Versi* : 4.03
 ║│➸ *Issue:* ${package.bugs.url}
 ║│➸ *Prefix:* ' ${usedPrefix} '
 ║│➸ *Menu:* ${usedPrefix}menu
