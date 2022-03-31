@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://telegra.ph/file/31bf36bba2151033b71d4.jpg" alt="RadBot" width="200"/>
+<img src="https://telegra.ph/file/abfbf8c52afb776192dd1.jpg" alt="OneBot" width="200"/>
 
 </p>
 <h1 align="center">NUMPANG NAMA DOANG KOK BANGGA</h1>
