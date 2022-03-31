@@ -14,8 +14,8 @@ let fs = require('fs')
 let chalk = require('chalk')
 
 global.linkGC = ['https://chat.whatsapp.com/Jzd9DEVB5nODtNBk1VCNrV', 'https://chat.whatsapp.com/Jzd9DEVB5nODtNBk1VCNrV', 'https://chat.whatsapp.com/HBhy7rVae3o0PkIfkhvs2N'] // ganti jadi group lu
-global.owner = ['6287892711054', '6287892711054', '6287892711054'] // Masukan nomot kalian
-global.mods = ['6287892711054', '6287892711054'] // Moderator
+global.owner = ['6282160268332', '0', '6282128475388'] // Masukan nomot kalian
+global.mods = ['6282160268332'] // Moderator
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -54,8 +54,8 @@ global.APIKeys = { // APIKey Here
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = 'hehe'
-  var sticker_author = 'by ShiroBotz'
+  var sticker_name = 'WhatsApp'
+  var sticker_author = '@One Botz\n\n\n\n\n\n\n\n\n\n\n'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -74,19 +74,21 @@ global.author = sticker_author
 
 // silakan di ganti klo mau
 global.wait = '_Wait.._'
-global.rpg = 'Fitur Rpg Dimatikan\nKetik *!enable* *rpg* untuk menggunakan fitur ini!\nKalo Mau main Disini aja\nhttps://chat.whatsapp.com/EheAWPrQMhV25xW0N7l7WD'
+global.rpg = 'Fitur Rpg Dimatikan\nKetik *#enable* *rpg* untuk menggunakan fitur ini.'
 global.nsfw = '“Katakanlah kepada orang laki-laki yang beriman: Hendaklah mereka menahan pandanganya, dan memelihara kemaluannya; … Katakanlah kepada wanita yang beriman: Hendaklah mereka menahan pandangannya, dan kemaluannya, dan janganlah mereka Menampakkan perhiasannya, kecuali yang (biasa) nampak dari padany,” \n(TQS. Al-Nur [24]: 30-31).'
 global.eror = '_*Error*_'
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&doScale=true&scaleWidth=500&scaleHeight=500&fontsize=100&fillTextType=0&backgroundColor=%23101820&text='
-global.watermark = '©shirobotz' //change the watermark (beberapa harus manual)
+global.watermark = '\n𝗢𝗻𝗲 𝗕𝗼𝘁 𝗯𝘆 𝗗𝗮𝘃𝗶𝗱' //change the watermark (beberapa harus manual)
+global.thumbfoto = 'https://telegra.ph/file/8862875cbcfdfe32e5103.jpg' //Thumbnail
+global.image = 'https://telegra.ph/file/8862875cbcfdfe32e5103.jpg'
 
 // Ubah saja
 global.image = 'https://telegra.ph/file/43a5bfd09e6c7e9a8055f.jpg'
 global.bank = 'https://telegra.ph/file/d5ddf4cc627bb0e6bc420.jpg'
 global.kandang = 'https://telegra.ph/file/67a6ee607d03a4e52757d.jpg'
 global.kolam = 'https://telegra.ph/file/5aa5dfa3394477e11fb18.jpg'
-global.thanks = 'https://telegra.ph/file/01917f7782b70de8f418d.jpg'
+global.thanks = 'https://telegra.ph/file/f9c55dea5728df6345670.jpg'
 
 // tingkat kesulitan, semakin tinggi semakin susah
 global.multiplier = 500 // The higher, The harder levelup
