@@ -10,11 +10,11 @@ let handler = async (m, { conn }) => {
 
     let str = `
 ┌────〔 Info 〕───⬣
-│✧ NameBot : Kanao-Bot
-│✧ Main Owner: Hyzer
-│✧ Operated Since: Lupa gw
+│✧ NameBot : One Bot
+│✧ Main Owner: David
+│✧ Operated Since: Lupa
 │✧ Language Used: Nodejs (JS)
-│✧ Server: Rdp
+│✧ Server: Heroku
 │✧ SC: Chat Owner
 ╰────────────⬣
 
