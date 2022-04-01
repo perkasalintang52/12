@@ -15,10 +15,10 @@ key: {
 				"product": {
 					"productImage":{
 						"mimetype": "image/jpeg",
-						"jpegThumbnail": fs.readFileSync('./src/RadBotZ.jpg'), //Gambarnye
+						"jpegThumbnail": fs.readFileSync('./src/One.jpg'), //Gambarnye
 					},
 					"title": `Hai ${conn.getName(m.sender)}`, //Kasih namalu 
-					"description": `Rp 9.999.999.999`, 
+					"description": `Nih Stikernya..`, 
 					"currencyCode": "Rp",
 					"priceAmount1000": "500000",
 					"retailerId": `ppk`,
