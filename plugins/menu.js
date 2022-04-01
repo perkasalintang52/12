@@ -30,11 +30,11 @@ const defaultMenu = {
 ╰════════════════════
 %readmore`.trimStart(),
   header: '┏━━ꕥ〔 *%category* 〕ꕥ━⬣',
-  body: '┃➸ %cmd %islimit %isPremium',
+  body: '┃ ✾ %cmd %islimit %isPremium',
   footer: '┗━ꕥ',
   after: `
-*%npmname@^%version*
-${'```%npmdesc```'}
+```%npmname^%version```
+*Colour Your Life*
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
