@@ -30,11 +30,11 @@ const defaultMenu = {
 ╰════════════════════
 %readmore`.trimStart(),
   header: '┏━━ꕥ〔 *%category* 〕ꕥ━⬣',
-  body: '┃ ✾ %cmd %islimit %isPremium',
+  body: '┃ ⎙ %cmd %islimit %isPremium',
   footer: '┗━ꕥ',
   after: `
-```%npmname^%version```
-*Colour Your Life*
+*One Bot V. 4.04*
+${'```%npmdesc```'}
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
@@ -45,7 +45,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     let uptime = clockString(_uptime)
   let tags
   let teks = `${args[0]}`.toLowerCase()
-  let arrayMenu = ['all', 'game', 'edukasi', 'news', 'nsfw', 'xp', 'stiker', 'image', 'anime', 'kerangajaib', 'quotes', 'admin', 'rpg', 'grup', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database', 'quran', 'audio', 'jadibot', 'info', 'vote', 'tanpakategori', 'owner']
+  let arrayMenu = ['All', 'Game', 'Edukasi', 'News', 'Nsfw', 'XP', 'Stiker', 'Image', 'Anime', 'Kerangajaib', 'Quotes', 'Admin', 'RPG', 'Grup', 'Premium', 'Internet', 'Anonymous', 'Nulis', 'Downloader', 'Tools', 'Fun', 'Database', 'Quran', 'Audio', 'JadiBot', 'Info', 'Vote', 'Tanpakategori', 'Owner']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
     'main': 'Utama',
@@ -224,17 +224,17 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 			return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
                     "listMessage":  {
                         "title": `*${ucapan()}, ${name}*`.trim(),
-                        "description": `┏━━〔 𝐒𝐓𝐀𝐓𝐔𝐒 〕━⬣
-┃⬡ 𝘼𝙠𝙩𝙞𝙛 𝙎𝙚𝙡𝙖𝙢𝙖 _*${uptime}*_
-┃⬡ 𝘽𝙖𝙩𝙚𝙧𝙖𝙞 _*${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}*_
-┃⬡ _*${Object.keys(global.db.data.users).length}*_ 𝙋𝙚𝙣𝙜𝙜𝙪𝙣𝙖
-┃⬡ _*${totaljadibot.length}*_ 𝙅𝙖𝙙𝙞𝙗𝙤𝙩
-┃⬡ _*${conn.blocklist.length}*_ 𝙏𝙚𝙧𝙗𝙡𝙤𝙘𝙠
-┃⬡ _*${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}*_ 𝘾𝙝𝙖𝙩 𝙩𝙚𝙧𝙗𝙖𝙣𝙣𝙚𝙙
-┃⬡ _*${Object.entries(global.db.data.users).filter(user => user[1].banned).length}*_ 𝙋𝙚𝙣𝙜𝙜𝙪𝙣𝙖 𝙏𝙚𝙧𝙗𝙖𝙣𝙣𝙚𝙙
-┗━━━━━━━━⬣`.trim(),
+                        "description": `┏━━〔 𝖲𝗍𝖺𝗍𝗎𝗌 〕━ꕥ
+┃✾ 𝖠𝗄𝗍𝗂𝖿 𝖲𝖾𝗅𝖺𝗆𝖺 _*${uptime}*_
+┃✾ 𝖡𝖺𝗍𝖾𝗋𝖺𝗂 _*${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}*_
+┃✾ _*${Object.keys(global.db.data.users).length}*_ 𝖯𝖾𝗇𝗀𝗀𝗎𝗇𝖺
+┃✾ _*${totaljadibot.length}*_ 𝖩𝖺𝖽𝗂 𝖡𝗈𝗍
+┃✾ _*${conn.blocklist.length}*_ 𝖳𝖾𝗋𝖻𝗅𝗈𝖼𝗄
+┃✾ _*${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}*_ 𝖢𝗁𝖺𝗍 𝖳𝖾𝗋𝖻𝖺𝗇𝗇𝖾𝖽
+┃✾ _*${Object.entries(global.db.data.users).filter(user => user[1].banned).length}*_  𝖯𝖾𝗇𝗀𝗀𝗎𝗇𝖺 𝖳𝖾𝗋𝖻𝖺𝗇𝗇𝖾𝖽
+┗━━━━━━━━ꕥ`.trim(),
                         "footerText": "Hi kk >‿‿<",
-                        "buttonText": "*Klik Disini*",
+                        "buttonText": "Pilih Menu Disini",
                         "listType": "SINGLE_SELECT",
                         "sections": [
                             {
@@ -481,7 +481,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send2ButtonLoc(m.chat, await(await fetch(fla + teks)).buffer(), text.trim(), `Runtime : ${uptime}\n${week} ${date}`, 'Pemilik Bot', `${_p}owner`, 'Donasi', `${_p}donasi`, m)
+    await conn.send2ButtonLoc(m.chat, await(await fetch(fla + teks)).buffer(), text.trim(), `Aktif Selama : ${uptime}\n${week} ${date}`, 'Pemilik Bot', `${_p}owner`, 'Donasi', `${_p}donasi`, m)
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
