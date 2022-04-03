@@ -2,10 +2,10 @@
 <img src="https://telegra.ph/file/abfbf8c52afb776192dd1.jpg" alt="OneBot" width="200"/>
 
 </p>
-<h1 align="center">NUMPANG NAMA DOANG KOK BANGGA</h1>
-<p align="center"> <a href="https://Lexxy24.github.io"> <img src="https://readme-typing-svg.herokuapp.com?size=15&width=280&lines=Created+By+Hyzerr+🗿" alt="Lexxy Official" /> </a> </p>
+<h1 align="center">Hi, Ini Adalah Script Bot Dari Base RadBotz</h1>
+<p align="center"> <a href="https://Lexxy24.github.io"> <img src="https://readme-typing-svg.herokuapp.com?size=15&width=280&lines=One+Botz+by+David" alt="OneXBotz" /> </a> </p>
 <p align="center">
-<a href="#"><img title="Shiro-Botz" src="https://img.shields.io/badge/GANTI SESSIONNYA DULU SEBELUM PAKAI-red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="One Botz" src="https://img.shields.io/badge/GANTI SESSIONNYA DULU SEBELUM PAKAI-red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
 </p> 
@@ -72,4 +72,4 @@ node .
 
 # My Sosial 
 - [Group ](https://chat.whatsapp.com/EheAWPrQMhV25xW0N7l7WD) 
-- [Whatsapp ](https://wa.me/6287892711054)
+- [Whatsapp ](https://wa.me/6282160268332)
