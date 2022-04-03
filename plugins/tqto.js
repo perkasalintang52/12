@@ -4,11 +4,11 @@ BIG THANKS TO
 
 ➸ Allah S.W.T
 ➸ My Parent
-➸ Hyzer ( pemilik bot )
-➸ Shiro (Bot)
+➸ David ( Kang Recode & Owner )
+➸ LynnXzy (membantu)
 ➸ Exc (membantu)
 ➸ Tio (membantu)
-➸ Andrii(membantu)
+➸ Andrii (membantu)
 ➸ Penyedia Layanan API
 ➸ Org2 yg berdonasi
 `.trim(), watermark, 'Back', '.menu')
