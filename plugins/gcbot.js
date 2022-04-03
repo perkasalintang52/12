@@ -4,14 +4,14 @@ let handler = async (m, { conn, text }) => {
 ╭═════════════════
 ║╭──❉ [ GRUB BOT ] ❉──
 ║│➸ *𝐆𝐑𝐎𝐔𝐏 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋¹*
-║│➸ https://tinyurl.com/y7xymnkd
+║│➸ https://tinyurl.com/One-Groups-1
 ║│➸ *𝐆𝐑𝐎𝐔𝐏 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋²*
-║│➸ https://tinyurl.com/yc92fva7
+║│➸ https://tinyurl.com/One-Groups-2
 ║╰───────────────
 ╰══════════════════
 
 `.trim()
-conn.send2ButtonLoc(m.chat, await (await fetch(fla + 'GRUB SIRAD')).buffer(), ext, 'LynXzy💌', 'SIAP BANG🗿', 'AUTO JOIN', 'Donasi', '.donasi', m)
+conn.send2ButtonLoc(m.chat, await (await fetch(fla + 'One Groups')).buffer(), ext, 'One', '\nSIAP BANG🗿', 'Iya', 'Owner', '.owner', m)
 
 }
 handler.help = ['gcbot']
