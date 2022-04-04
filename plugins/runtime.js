@@ -3,7 +3,7 @@ let _uptime = process.uptime() * 1000
 let uptime = clockString(_uptime)
 let time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
 let runnya = `
-*───「 RUNTIME BOT💌 」───*
+*───「 💠 RUNTIME BOT 💠 」───*
 
 ⏲️ Waktu: ${time} WIB
 Aktif Selama : ${uptime}
