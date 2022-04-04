@@ -664,7 +664,7 @@ global.dfail = (type, m, conn) => {
   let unreg = {
     unreg: `Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar David.16*`
   }[type]
-  if (unreg) return conn.sendButton(m.chat, `Halo kak ${name} Sebelum menggunakan fitur ini Harap Sign Up ( Daftar ) Terlebih dahulu`, watermark, 'Sign Up', `#daftar ${name}.17`, { key: { fromMe: false, remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { message: `©shirobotz_\nJam ${time}`, itemCount: 2022, thumbnail: fs.readFileSync('./src/RadBotZ.jpg')}}})
+  if (unreg) return conn.sendButton(m.chat, `Halo kak ${name} Sebelum menggunakan fitur ini Harap Sign Up ( Daftar ) Terlebih dahulu`, watermark, 'Sign Up', `#daftar ${name}.17`, { key: { fromMe: false, remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { message: `©shirobotz_\nJam ${time}`, itemCount: 2022, thumbnail: fs.readFileSync('./src/One.jpg')}}})
 }
 
 let chalk = require('chalk')
