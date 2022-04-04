@@ -1,3 +1,4 @@
+// anu anunya ada di sini
 let fs = require('fs')
 let fetch = require('node-fetch')
 let handler = m => m
@@ -15,7 +16,7 @@ handler.all = async function (m, { isBlocked }) {
     try {
         if (m.mentionedJid.includes(this.user.jid) && m.isGroup) {
             await this.send2Button(m.chat,
-                isBanned ? '𝖮𝗇𝖾 𝖡𝗈𝗍 𝗍𝗂𝖽𝖺𝗄 𝖺𝗄𝗍𝗂𝖿' : banned ? 'kamu dibanned' : 'Gausah tag teg segala.. Bot Aktif',
+                isBanned ? '𝖮𝗇𝖾 𝖡𝗈𝗍 𝗍𝗂𝖽𝖺𝗄 𝖺𝗄𝗍𝗂𝖿' : banned ? 'kamu dibanned' : 'Ada Apa ya tag-tag saia ?',
                 '𝗢𝗻𝗲 𝗕𝗼𝘁 𝗯𝘆 𝗗𝗮𝘃𝗶𝗱',
                 isBanned ? 'Unban' : banned ? 'Pemilik Bot' : 'Menu',
                 isBanned ? '.unban' : banned ? '.owner' : '.?',
@@ -67,7 +68,7 @@ handler.all = async function (m, { isBlocked }) {
 if (new Date() * 1 - setting.status > 1000) {
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
-        await this.setStatus(`⏰ 𝖱𝗎𝗇𝗍𝗂𝗆𝖾 ${uptime} | 🌀  𝖬𝗈𝖽𝖾 : ${global.opts['self'] ? '𝖯𝗋𝗂𝗏𝖺𝗍𝖾' : setting.groupOnly ? 'Hanya Grup' : '𝖯𝗎𝖻𝗅𝗂𝖼'} | 𝖮𝗇𝖾 𝖡𝗈𝗍 𝖻𝗒 𝖣𝖺𝗏𝗂𝖽`).catch(_ => _)
+        await this.setStatus(`⏰ 𝖱𝗎𝗇𝗍𝗂𝗆𝖾: ${uptime} | 🌀  𝖬𝗈𝖽𝖾: ${global.opts['self'] ? '𝖯𝗋𝗂𝗏𝖺𝗍𝖾' : setting.groupOnly ? 'Hanya Grup' : '𝖯𝗎𝖻𝗅𝗂𝖼'} | 𝖮𝗇𝖾 𝖡𝗈𝗍 𝖻𝗒 𝖣𝖺𝗏𝗂𝖽`).catch(_ => _)
         setting.status = new Date() * 1
     }
 
