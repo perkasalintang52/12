@@ -33,8 +33,8 @@ const defaultMenu = {
   body: '┃ ⎙ %cmd %islimit %isPremium',
   footer: '┗━ꕥ',
   after: `
-*One Bot V. 4.04*
-${'```%npmdesc```'}
+*One Bot V. 4.05*
+*Colour Your Life*
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
@@ -45,7 +45,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     let uptime = clockString(_uptime)
   let tags
   let teks = `${args[0]}`.toLowerCase()
-  let arrayMenu = ['All', 'Game', 'Edukasi', 'News', 'Nsfw', 'XP', 'Stiker', 'Image', 'Anime', 'Kerangajaib', 'Quotes', 'Admin', 'RPG', 'Grup', 'Premium', 'Internet', 'Anonymous', 'Nulis', 'Downloader', 'Tools', 'Fun', 'Database', 'Quran', 'Audio', 'JadiBot', 'Info', 'Vote', 'Tanpakategori', 'Owner']
+  let arrayMenu = ['all', 'game', 'edukasi', 'news', 'nsfw', 'xp', 'stiker', 'image', 'anime', 'kerangajaib', 'quotes', 'admin', 'rpg', 'grup', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database', 'quran', 'audio', 'jadibot', 'info', 'vote', 'tanpakategori', 'owner']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
     'main': 'Utama',
@@ -234,7 +234,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃✾ _*${Object.entries(global.db.data.users).filter(user => user[1].banned).length}*_  𝖯𝖾𝗇𝗀𝗀𝗎𝗇𝖺 𝖳𝖾𝗋𝖻𝖺𝗇𝗇𝖾𝖽
 ┗━━━━━━━━ꕥ`.trim(),
                         "footerText": "Hi kk >‿‿<",
-                        "buttonText": "Pilih Menu Disini",
+                        "buttonText": "𝗞𝗹𝗶𝗸 𝗗𝗶 𝗦𝗶𝗻𝗶",
                         "listType": "SINGLE_SELECT",
                         "sections": [
                             {
@@ -252,7 +252,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "rowId": ".sewabot"
                                 }, {
                                     "title": "|💌|Group Bot",
-                                    "description": "Join bang",
+                                    "description": "",
                                     "rowId": ".gcbot"
                                 }],
                                 "title": "⟣─────────❲ Tentang Bot dan lainnya ❳──────────⟢"
@@ -371,19 +371,19 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "rowId": ".? tanpakategori"
                                 }, { 
                                     "title": "|🧑‍💻| Owner",
-                                    "description": "Menu Khusu Owner",
+                                    "description": "Menu Khusus Owner",
                                     "rowId": ".? owner"
                                 }],
                                 "title": "⟣──────────────❲  All-Menu  ❳──────────────⟢"
                             }, {
                                 "rows": [{
                                     "title": "|👩🏻‍💼|Owner bot",
-                                    "description": "pemilik Bot",
+                                    "description": "Pemilik Bot",
                                     "rowId": ".owner"
                                 }, {
-                                    "title": "|💰|Donasi",
-                                    "description": "Jangan lupa donasi untuk mendukung bot agar aktif selalu",
-                                    "rowId": ".donasi"
+                                    "title": "|⏰| Change Note",
+                                    "description": "Catatan Perubahan",
+                                    "rowId": ".note"
                                 }, {
                                     "title": "|🥀|Kata penutup",
                                     "description": "Terimakasih untuk user yang telah menggunakan bot, jika ada kesalahan atau permintaan bisa chat ke nomor owner\nNote: chat P/main² tidak akan di respon(user bisa terkena banned/block)",
@@ -483,7 +483,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     await conn.send2ButtonLoc(m.chat, await(await fetch(fla + teks)).buffer(), text.trim(), `Aktif Selama : ${uptime}\n${week} ${date}`, 'Pemilik Bot', `${_p}owner`, 'Donasi', `${_p}donasi`, m)
   } catch (e) {
-    conn.reply(m.chat, 'Maaf, menu sedang error', m)
+    conn.reply(m.chat, '*Error!*\nModule Bot Berhenti Bekerja!', m)
     throw e
   }
 }
