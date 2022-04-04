@@ -9,8 +9,8 @@ const anu = {
                         },
        message: {
                     documentMessage: {
-                    title: 'Hmm.jpeg', 
-                    jpegThumbnail: fs.readFileSync('./src/RadBotZ.jpg')
+                    title: 'One.jpg', 
+                    jpegThumbnail: fs.readFileSync('./src/One.jpg')
                           }
                         }
                       }
