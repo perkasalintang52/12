@@ -5,8 +5,8 @@ let time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
 let runnya = `
 *───「 RUNTIME BOT💌 」───*
 
-⏲️Time : ${time}
-👾Runtime : ${uptime}
+⏲️ Waktu: ${time} WIB
+Aktif Selama : ${uptime}
 `
 conn.sendButton(m.chat, runnya, watermark, 'Menu', '.menu', m) 
 }
