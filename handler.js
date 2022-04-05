@@ -650,7 +650,7 @@ global.dfail = (type, m, conn) => {
   let msg = {
     owner: '*Fitur Khusus Owner*',
     mods: '*Fitur Khusus Moderator*',
-    premium: '*Fitur Khusus Premium*',
+    premium: '*Fitur Khusus User Premium*',
     group: '*Fitur Khusus Grup*',
     private: '*Fitur Khusus Chat Pribadi*',
     admin: '*Fitur Khusus Admin Grup*',
