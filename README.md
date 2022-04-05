@@ -3,9 +3,9 @@
 
 </p>
 <h1 align="center">Hi, Ini Adalah Script Bot Dari Base RadBotz</h1>
-<p align="center"> <a href="https://Lexxy24.github.io"> <img src="https://readme-typing-svg.herokuapp.com?size=15&width=280&lines=One+Botz+by+David" alt="OneXBotz" /> </a> </p>
+<p align="center"> <a href="https://s.id/lordBot"> <img src="https://readme-typing-svg.herokuapp.com?size=15&width=280&lines=One+Botz+by+David" alt="OneXBotz" /> </a> </p>
 <p align="center">
-<a href="#"><img title="One Botz" src="https://img.shields.io/badge/GANTI SESSIONNYA DULU SEBELUM PAKAI-red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="One Botz" src="https://img.shields.io/badge/GANTI SESSIONNYA DULU SEBELUM PAKAI\nSESSION ADA DI RadBotz.json-red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
 </p> 
