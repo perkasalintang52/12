@@ -232,6 +232,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃✾ _*${conn.blocklist.length}*_ 𝖳𝖾𝗋𝖻𝗅𝗈𝖼𝗄
 ┃✾ _*${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}*_ 𝖢𝗁𝖺𝗍 𝖳𝖾𝗋𝖻𝖺𝗇𝗇𝖾𝖽
 ┃✾ _*${Object.entries(global.db.data.users).filter(user => user[1].banned).length}*_  𝖯𝖾𝗇𝗀𝗀𝗎𝗇𝖺 𝖳𝖾𝗋𝖻𝖺𝗇𝗇𝖾𝖽
+┃✾ *Pengumuman*
+┃● *Untuk Saat Ini Fitur Jadibot*
+┃  *Error karena modulnya crash*
 ┗━━━━━━━━ꕥ`.trim(),
                         "footerText": "Hi kk >‿‿<",
                         "buttonText": "𝗞𝗹𝗶𝗸 𝗗𝗶 𝗦𝗶𝗻𝗶",
