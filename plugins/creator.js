@@ -8,8 +8,8 @@ remoteJid: 'status@broadcast'
 },
 message: {
 locationMessage: {
-name: 'Ini Nomor Orang',
-jpegThumbnail: fs.readFileSync('./src/One.jpg')
+name: 'My Mastah',
+jpegThumbnail: fs.readFileSync('./src/Dark.jpg')
   }
  }
 }
@@ -25,12 +25,12 @@ let list = []
         "contacts": list 
         }, 'contactsArrayMessage', { quoted: fakegrup })
           let buttons = [
-  {buttonId: '#menu', buttonText: {displayText: 'Menu'}, type: 1},
+  {buttonId: '#?', buttonText: {displayText: 'Back To Menu'}, type: 1},
   {buttonId: '#donasi', buttonText: {displayText: 'Donasi'}, type: 1},
 ]
 const buttonsMessage = {
     contentText: `
-Donasi/Sewa? Chat Owner
+*Ini Adalah Nomor Owner, Bukan Bot. Utamakan Salam Jangan P*\n*Tidak Menerima Save*
 `.trim(),    footerText: ``,
     buttons: buttons,
   headerType: 'EMPTY'
