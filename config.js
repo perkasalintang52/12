@@ -72,7 +72,7 @@ global.thumbfoto = 'https://i.ibb.co/ZLxBtr4/08a25e119b58f9eb3fe89e80110bf2fd.jp
 global.image = 'https://telegra.ph/file/8862875cbcfdfe32e5103.jpg'
 
 // Ubah saja
-global.image = 'https://telegra.ph/file/43a5bfd09e6c7e9a8055f.jpg'
+global.image = 'https://i.ibb.co/5s8VWh1/2b774dd8b2b50e31438744b8e94440a5.jpg'
 global.bank = 'https://telegra.ph/file/d5ddf4cc627bb0e6bc420.jpg'
 global.kandang = 'https://telegra.ph/file/67a6ee607d03a4e52757d.jpg'
 global.kolam = 'https://telegra.ph/file/5aa5dfa3394477e11fb18.jpg'
