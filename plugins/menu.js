@@ -33,7 +33,7 @@ const defaultMenu = {
   body: '┃ ⎙ %cmd %islimit %isPremium',
   footer: '┗━ꕥ',
   after: `
-*One Bot V. 4.05*
+*One Bot V. 4.12*
 *Colour Your Life*
 `,
 }
