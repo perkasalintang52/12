@@ -24,7 +24,7 @@
 
 ## `CHANGE SESSION`
 
-[`Click Here`](https://github.com/zeeone-ofc/Alphab0t/blob/master/session.json#L1)
+[`Click Here`](https://github.com/davidpangrib001/Hyzer-V3/edit/master/OneBotZ.json)
 
 ## `SETTING`
 
