@@ -64,15 +64,16 @@ global.author = sticker_author
 global.wait = '_Wait.._'
 global.rpg = 'Fitur Rpg Dimatikan\nKetik *#enable* *rpg* untuk menggunakan fitur ini.'
 global.nsfw = '“Katakanlah kepada orang laki-laki yang beriman: Hendaklah mereka menahan pandanganya, dan memelihara kemaluannya; … Katakanlah kepada wanita yang beriman: Hendaklah mereka menahan pandangannya, dan kemaluannya, dan janganlah mereka Menampakkan perhiasannya, kecuali yang (biasa) nampak dari padany,” \n(TQS. Al-Nur [24]: 30-31).'
-global.eror = '_*Error*_'
+global.eror = '_*Error 404 *_ *x_x*'
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
+global.flu = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text='
 global.watermark = '\n𝙾𝚗𝚎 𝙱𝚘𝚝𝚣 𝚋𝚢 𝙳𝚊𝚟𝚒𝚍' //change the watermark (beberapa harus manual)
 global.thumbfoto = 'https://i.ibb.co/ZLxBtr4/08a25e119b58f9eb3fe89e80110bf2fd.jpg' //Thumbnail
 global.image = 'https://telegra.ph/file/8862875cbcfdfe32e5103.jpg'
 
-// Ubah saja
-global.image = 'https://i.ibb.co/5s8VWh1/2b774dd8b2b50e31438744b8e94440a5.jpg'
+// Boleh Di Ubah
+global.image = 'https://telegra.ph/file/e3c17ff3dfbc26de5df94.jpg'
 global.bank = 'https://telegra.ph/file/d5ddf4cc627bb0e6bc420.jpg'
 global.kandang = 'https://telegra.ph/file/67a6ee607d03a4e52757d.jpg'
 global.kolam = 'https://telegra.ph/file/5aa5dfa3394477e11fb18.jpg'
