@@ -15,7 +15,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 contoh:
 *○ ${usedPrefix + command} tutup*
 *○ ${usedPrefix + command} buka*
-	`.trim(), watermark, 'Buka\nGrup', '#grup 1', 'Tutup\nGrup', '#grup 0')
+	`.trim(), watermark, 'Buka Grup', '!grup close', 'Tutup Grup', '/grup buka')
 		throw false
 	}
 	await conn.groupSettingChange(m.chat, GroupSettingChange.messageSend, isClose)
@@ -31,5 +31,5 @@ handler.private = false
 handler.admin = true
 handler.botAdmin = true
 handler.fail = null
-handler.exp = 0
+handler.exp = 5
 module.exports = handler
