@@ -1,4 +1,6 @@
-// hehe
+/* 
+hehe
+*/
 let levelling = require('../lib/levelling')
 let { MessageType } = require('@adiwajshing/baileys')
 let fs = require('fs')
@@ -224,18 +226,18 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     if (teks == '404') {
 			return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
                     "listMessage":  {
-                        "title": `*${ucapan()}, ${name}*`.trim(),
+                        "title": `Hai ${name}, ${ucapan()}`.trim(),
                         "description": `┏━━〔 𝖲𝗍𝖺𝗍𝗎𝗌 〕━ꕥ
-┃✾ *_𝖠𝗄𝗍𝗂𝖿 𝖲𝖾𝗅𝖺𝗆𝖺_* _*${uptime}*_
-┃✾ *_𝖡𝖺𝗍𝖾𝗋𝖺𝗂_* _*${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}*_
-┃✾ _*${Object.keys(global.db.data.users).length}*_ *_𝖯𝖾𝗇𝗀𝗀𝗎𝗇𝖺_*
-┃✾ _*${totaljadibot.length}*_ _*𝖩𝖺𝖽𝗂 𝖡𝗈𝗍*_
-┃✾ _*${conn.blocklist.length}*_ *_𝖳𝖾𝗋𝖻𝗅𝗈𝖼𝗄_*
-┃✾ _*${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}*_ _*𝖢𝗁𝖺𝗍 𝖳𝖾𝗋𝖻𝖺𝗇𝗇𝖾𝖽*_
-┃✾ _*${Object.entries(global.db.data.users).filter(user => user[1].banned).length}*_  *_𝖯𝖾𝗇𝗀𝗀𝗎𝗇𝖺 𝖳𝖾𝗋𝖻𝖺𝗇𝗇𝖾𝖽_*
+┃✾ 𝖠𝗄𝗍𝗂𝖿 𝖲𝖾𝗅𝖺𝗆𝖺 _*${uptime}*_
+┃✾ 𝖡𝖺𝗍𝖾𝗋𝖺𝗂 _*${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}*_
+┃✾ _*${Object.keys(global.db.data.users).length}*_ 𝖯𝖾𝗇𝗀𝗀𝗎𝗇𝖺
+┃✾ _*${totaljadibot.length}*_ 𝖩𝖺𝖽𝗂 𝖡𝗈𝗍
+┃✾ _*${conn.blocklist.length}*_ 𝖳𝖾𝗋𝖻𝗅𝗈𝖼𝗄
+┃✾ _*${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}*_ 𝖢𝗁𝖺𝗍 𝖳𝖾𝗋𝖻𝖺𝗇𝗇𝖾𝖽
+┃✾ _*${Object.entries(global.db.data.users).filter(user => user[1].banned).length}*_  𝖯𝖾𝗇𝗀𝗀𝗎𝗇𝖺 𝖳𝖾𝗋𝖻𝖺𝗇𝗇𝖾𝖽
 ┗━━━━━━━━ꕥ`.trim(),
                         "footerText": "Hi kk >‿‿<",
-                        "buttonText": "𝗞𝗹𝗶𝗸 𝗗𝗶𝗦𝗶𝗻𝗶",
+                        "buttonText": "𝗞𝗹𝗶𝗸 𝗗𝗶 𝗦𝗶𝗻𝗶",
                         "listType": "SINGLE_SELECT",
                         "sections": [
                             {
@@ -253,7 +255,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "rowId": ".sewabot"
                                 }, {
                                     "title": "💌 Group Bot",
-                                    "description": "",
+                                    "description": "Grup Bot",
                                     "rowId": ".gcbot"
                                 }],
                                 "title": "⟣─────────❲ Tentang Bot dan lainnya ❳──────────⟢"
@@ -363,11 +365,11 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "description": "Cari Anime Di Bot",
                                     "rowId": ".? anime"
                                 }, { 
-                                    "title": "ℹ️ Info",
+                                    "title": "|ℹ️| Info",
                                     "description": "Info Tentang Bot",
                                     "rowId": ".? info"
                                 }, { 
-                                    "title": "─Tanpa Kategori",
+                                    "title": "Tanpa Kategori",
                                     "description": "",
                                     "rowId": ".? tanpakategori"
                                 }, { 
@@ -378,19 +380,19 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                 "title": "⟣──────────────❲  All-Menu  ❳──────────────⟢"
                             }, {
                                 "rows": [{
-                                    "title": "👩🏻‍💼Owner bot",
+                                    "title": "👩🏻‍💼 Owner bot",
                                     "description": "Pemilik Bot",
                                     "rowId": ".owner"
                                 }, {
-                                    "title": "⏰ Runtime",
+                                    "title": "|⏰| Runtime",
                                     "description": "",
                                     "rowId": ".runtime"
                                 }, {
-                                    "title": "🥀Kata penutup",
+                                    "title": "🥀 Kata penutup",
                                     "description": "Terimakasih untuk user yang telah menggunakan bot, jika ada kesalahan atau permintaan bisa chat ke nomor owner\nNote: chat P/main² tidak akan di respon(user bisa terkena banned/block)",
                                     "rowId": ".creator"
                                 }, {
-                                    "title": "❤️Thanks To",
+                                    "title": "❤️ Thanks To",
                                     "description": "Terima kasih banyak untuk user yang telah berpartisipasi dalam bot",
                                     "rowId": ".tqto"
                                 }],
@@ -443,11 +445,11 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       //   if (!(tag in tags)) tags[tag] = tag
     }
     conn.menu = conn.menu ? conn.menu : {}
-    let before = conn.menu.before  defaultMenu.before
-    let header = conn.menu.header  defaultMenu.header
-    let body = conn.menu.body  defaultMenu.body
-    let footer = conn.menu.footer  defaultMenu.footer
-    let after = conn.menu.after  (conn.user.jid == global.conn.user.jid ? '' : `Dipersembahkan oleh https://wa.me/${global.conn.user.jid.split`@`[0]}`) + defaultMenu.after
+    let before = conn.menu.before || defaultMenu.before
+    let header = conn.menu.header || defaultMenu.header
+    let body = conn.menu.body || defaultMenu.body
+    let footer = conn.menu.footer || defaultMenu.footer
+    let after = conn.menu.after || (conn.user.jid == global.conn.user.jid ? '' : `Dipersembahkan oleh https://wa.me/${global.conn.user.jid.split`@`[0]}`) + defaultMenu.after
     let _text = [
       before,
       ...Object.keys(tags).map(tag => {
@@ -455,8 +457,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
           ...help.filter(menu => menu.tags && menu.tags.includes(tag) && menu.help).map(menu => {
             return menu.help.map(help => {
               return body.replace(/%cmd/g, menu.prefix ? help : '%p' + help)
-                .replace(/%islimit/g, menu.limit ? '(Limit)' : '')
-                .replace(/%isPremium/g, menu.premium ? '(Premium)' : '')
+                .replace(/%islimit/g, menu.limit ? 'Limit' : '')
+                .replace(/%isPremium/g, menu.premium ? '*_Premium_*' : '')
                 .trim()
             }).join('\n')
           }),
@@ -477,11 +479,11 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       maxexp: xp,
       totalexp: exp,
       xp4levelup: max - exp <= 0 ? `Siap untuk *${_p}levelup*` : `${max - exp} XP lagi untuk levelup`,
-      github: package.homepage ? package.homepage.url  package.homepage : '[unknown github url]',
+      github: package.homepage ? package.homepage.url || package.homepage : '[unknown github url]',
       level, limit, name, weton, week, date, dateIslamic, time, totalreg, rtotalreg, role,
       readmore: readMore
     }
-    text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join``})`, 'g'), (_, name) => '' + replace[name])
+    text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     await conn.send2ButtonLoc(m.chat, await(await fetch(fla + teks)).buffer(), text.trim(), `Aktif Selama : ${uptime}\n${week} ${date}`, 'Pemilik Bot', `${_p}owner`, 'Donasi', `${_p}donasi`, m)
   } catch (e) {
     conn.reply(m.chat, 'Error 404 x_x', m)
