@@ -1,6 +1,4 @@
-/* 
-hehe
-*/
+// hehe
 let levelling = require('../lib/levelling')
 let { MessageType } = require('@adiwajshing/baileys')
 let fs = require('fs')
@@ -36,7 +34,7 @@ const defaultMenu = {
   body: '┃  ⎙ %cmd %islimit %isPremium',
   footer: '┗━ꕥ',
   after: `
-*One Bot V. 4.12*
+*One Bot V. 4.12C*
 *Colour Your Life*
 `,
 }
@@ -242,157 +240,157 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                         "sections": [
                             {
                                 "rows": [{
-                                    "title": "🛠️ Status Bot",
+                                    "title": "Status Bot",
                                     "description": "Status dan informasi Bot.",
                                     "rowId": ".botstatus"
                                 }, {
-                                    "title": "❗Rules",
+                                    "title": "Rules",
                                     "description": "User yang bijak selalu mematuhi Rules.",
                                     "rowId": ".rules"
                                 }, {
-                                    "title": "👑 Sewa bot - Premium",
+                                    "title": "Sewa bot - Premium",
                                     "description": "Untuk kamu yang ingin melihat daftar harga sewa dan premium.",
                                     "rowId": ".sewabot"
                                 }, {
-                                    "title": "💌 Group Bot",
-                                    "description": "Grup Bot",
+                                    "title": "Group Bot",
+                                    "description": "",
                                     "rowId": ".gcbot"
                                 }],
                                 "title": "⟣─────────❲ Tentang Bot dan lainnya ❳──────────⟢"
                             }, {
                                 "rows": [{
-                                    "title": `🧾 Semua Perintah`,
+                                    "title": `ㅧ Semua Perintah`,
                                     "description": "Memberikan Semua Fitur Bot",
                                     "rowId": ".? all"
                                 }, { 
-                                    "title": "🕋 Islam",
+                                    "title": "ㅧ Islam",
                                     "description": "Menu Tentang Islam",
                                     "rowId": ".? quran"
                                 }, { 
-                                    "title": "🏫 Edukasi",
+                                    "title": "ㅧ Edukasi",
                                     "description": "Menu Edukasi",
                                     "rowId": ".? edukasi"
                                 }, { 
-                                    "title": "📰 News",
+                                    "title": "ㅧ News",
                                     "description": "Menu Berita",
                                     "rowId": ".? News"
                                 }, { 
-                                    "title": "🎮 Game",
+                                    "title": "ㅧ Game",
                                     "description": "Menu Game",
                                     "rowId": ".? game"
                                 }, { 
-                                    "title": "🗺️ Epic Rpg",
+                                    "title": "️ㅧ Epic Rpg",
                                     "description": "Menu Game RPG",
                                     "rowId": ".? rpg"
                                 }, { 
-                                    "title": "📈 XP",
+                                    "title": "ㅧ XP",
                                     "description": "XP Dan Level",
                                     "rowId": ".? xp"
                                 }, { 
-                                    "title": "🔞 NSFW",
-                                    "description": "Menu Bokep",
+                                    "title": "ㅧ NSFW",
+                                    "description": "Lagi Puasa Woy..",
                                     "rowId": ".? nsfw"
                                 }, { 
-                                    "title": "🖼️ Random Image",
+                                    "title": "️ㅧ Random Image",
                                     "description": "Menu Foto Random",
                                     "rowId": ".? image"
                                 }, { 
-                                    "title": "🎇 Stiker",
+                                    "title": "ㅧ Stiker",
                                     "description": "Menu Buat Stiker",
                                     "rowId": ".? stiker"
                                 }, { 
-                                    "title": "🐚 Kerang Ajaib",
+                                    "title": "ㅧ Kerang Ajaib",
                                     "description": "Menurut Kerang ajaib....",
                                     "rowId": ".? kerangajaib"
                                 }, { 
-                                    "title": "📑 Quotes",
+                                    "title": "ㅧ Quotes",
                                     "description": "Menu Quotes",
                                     "rowId": ".? quotes"
                                 }, { 
-                                    "title": "🏛️ Admin",
+                                    "title": "ㅧ Admin",
                                     "description": "Menu Admin Group",
                                     "rowId": ".? admin"
                                 }, { 
-                                    "title": "🏢 Grup",
+                                    "title": "ㅧ Grup",
                                     "description": "Menu Group",
                                     "rowId": ".? grup"
                                 }, { 
-                                    "title": "🔝 Premium",
+                                    "title": "ㅧ Premium",
                                     "description": "Menu Untuk Premium",
                                     "rowId": ".? premium"
                                 }, { 
-                                    "title": "🖥️ Internet",
+                                    "title": "️ㅧ Internet",
                                     "description": "Cari Sesuatu Di Bot",
                                     "rowId": ".? internet"
                                 }, { 
-                                    "title": "🥷 Anonymous",
+                                    "title": "ㅧ Anonymous",
                                     "description": "Mainkan Anonymous Chat",
                                     "rowId": ".? anonymous"
                                 }, { 
-                                    "title": "✒️ Nulis & Logo",
+                                    "title": "ㅧ Nulis & Logo",
                                     "description": "Menu Nulis & Logo",
                                     "rowId": ".? nulis"
                                 }, { 
-                                    "title": "📺 Downloader",
+                                    "title": "ㅧ Downloader",
                                     "description": "Download Sesuatu Di Bot",
                                     "rowId": ".? downloader"
                                 }, { 
-                                    "title": "🔧 Tools",
+                                    "title": "ㅧ Tools",
                                     "description": "Tools Yang Bisa di Gunakan Di Bot",
                                     "rowId": ".? tools"
                                 }, { 
-                                    "title": "🎇 Fun",
+                                    "title": "ㅧ Fun",
                                     "description": "Menu Ceria",
                                     "rowId": ".? fun"
                                 }, { 
-                                    "title": "📂 Database",
+                                    "title": "ㅧ Database",
                                     "description": "Simpan Sesuatu Di Bot",
                                     "rowId": ".? database"
                                 }, { 
-                                    "title": "📝 Vote & Absen",
+                                    "title": "ㅧ Vote & Absen",
                                     "description": "Menu Vote & Absen",
                                     "rowId": ".? vote"
                                 }, { 
-                                    "title": "🎙️ Pengubah Suara",
+                                    "title": "ㅧ️ Pengubah Suara",
                                     "description": "Ubah Suaramu",
                                     "rowId": ".? audio"
                                 }, { 
-                                    "title": "🤖 Jadi Bot",
-                                    "description": "Jadi Bot",
-                                    "rowId": "/? jadibot"
+                                    "title": "ㅧ Multi Sessions",
+                                    "description": "Fitur Jadi Bot Sementara",
+                                    "rowId": "#? jadibot"
                                 }, { 
-                                    "title": "⛩️ Anime",
+                                    "title": "️ㅧ Anime",
                                     "description": "Cari Anime Di Bot",
                                     "rowId": ".? anime"
                                 }, { 
-                                    "title": "|ℹ️| Info",
+                                    "title": "ㅧ Info",
                                     "description": "Info Tentang Bot",
                                     "rowId": ".? info"
                                 }, { 
-                                    "title": "Tanpa Kategori",
-                                    "description": "",
+                                    "title": "ㅧ Tanpa Kategori",
+                                    "description": "Tidak Berguna",
                                     "rowId": ".? tanpakategori"
                                 }, { 
-                                    "title": "🧑‍💻 Owner",
-                                    "description": "Menu Khusus Owner",
+                                    "title": "ㅧ Owner",
+                                    "description": "Fitur Khusus Owner",
                                     "rowId": ".? owner"
                                 }],
                                 "title": "⟣──────────────❲  All-Menu  ❳──────────────⟢"
                             }, {
                                 "rows": [{
-                                    "title": "👩🏻‍💼 Owner bot",
+                                    "title": "Owner bot",
                                     "description": "Pemilik Bot",
                                     "rowId": ".owner"
                                 }, {
-                                    "title": "|⏰| Runtime",
+                                    "title": "Runtime",
                                     "description": "",
                                     "rowId": ".runtime"
                                 }, {
-                                    "title": "🥀 Kata penutup",
+                                    "title": "Kata penutup",
                                     "description": "Terimakasih untuk user yang telah menggunakan bot, jika ada kesalahan atau permintaan bisa chat ke nomor owner\nNote: chat P/main² tidak akan di respon(user bisa terkena banned/block)",
                                     "rowId": ".creator"
                                 }, {
-                                    "title": "❤️ Thanks To",
+                                    "title": "Thanks To",
                                     "description": "Terima kasih banyak untuk user yang telah berpartisipasi dalam bot",
                                     "rowId": ".tqto"
                                 }],
@@ -401,7 +399,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                         ], "contextInfo": 
 						{ "stanzaId": m.key.id,
                         "participant": "0@s.whatsapp.net",
-                        "remoteJid": "6283136505591-1614953337@g.us",
+                        "remoteJid": "60149431385-1618206438@g.us",
                         "quotedMessage": m.message
 						}
                     }
