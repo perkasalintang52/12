@@ -29,7 +29,7 @@ global.APIKeys = { // APIKey Here
   'https://hardianto.xyz': 'hardianto',
   'https://neoxr-api.herokuapp.com': 'yntkts',
   'https://api.xteam.xyz': 'cristian9407',
-  'https://api.lolhuman.xyz': 'Dawnfrostkey',
+  'https://api.lolhuman.xyz': '7047f08f5a0ea4bcdf55cd72',
   'https://caliphapi.com': 'ELYASXD',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.zeks.me': 'apivinz',
