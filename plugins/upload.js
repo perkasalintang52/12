@@ -8,9 +8,9 @@ let handler = async (m) => {
   let media = await q.download()
   let isTele = /image\/(png|jpe?g|gif)|video\/mp4/.test(mime)
   let link = await (isTele ? uploadImage : uploadFile)(media)
-  m.reply(`${link}
-${media.length} Byte(s)
-${isTele ? '(No Expiry Date)' : '(Unknown)'}`)
+  m.reply(`*_Upload Berhasil_*\n*Link* : ${link}
+*Ukuran* : ${media.length} Byte(s)
+${isTele ? 'Tidak Ada Tanggal Kadaluarsa' : '(Unknown)'}`)
 }
 handler.help = ['upload (caption|reply media)']
 handler.tags = ['tools']
