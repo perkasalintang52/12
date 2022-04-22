@@ -256,19 +256,19 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       break
     default:
       if (!/[01]/.test(command)) throw `
-┌〔 Daftar Opsi 〕${isOwner ? '\n├ anon\n├ antispam\n├ antitroli\n├ autoread\n├ backup\n├ clear\n├ grouponly\n├ jadibot\n├ nsfw\n├ public\n├ mycontact' : ''}
-├ antilink
-├ autolevelup
-├ rpg
-├ delete
-├ detect
-├ viewonce
-├ antibadword
-├ document
-├ stiker
-├ simi
-├ welcome
-└────
+*┌〔 Daftar Opsi 〕*${isOwner ? '\n*├* anon\n*├* antispam\n*├* antitroli\n*├* autoread\n*├* backup\n*├* clear\n*├* grouponly\n*├* jadibot\n*├* nsfw\n*├* public\n*├* mycontact' : ''}
+*├* antilink
+*├* autolevelup
+*├* rpg
+*├* delete
+*├* detect
+*├* viewonce
+*├* antibadword
+*├* document
+*├* stiker
+*├* simi
+*├* welcome
+*└────*
 contoh:
 ${usedPrefix}on welcome
 ${usedPrefix}off welcome
@@ -278,7 +278,7 @@ ${usedPrefix}off welcome
 let str = `
 *${type}* berhasil di *${isEnable ? 'nyala' : 'mati'}kan* ${isAll ? 'untuk bot ini' : isUser ? '' : 'untuk chat ini'}
 `.trim()
-     await conn.send2Button(m.chat, str, watermark, 'Owner', '.owner', 'Menu', '.menu', { key: { fromMe: false, remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { message: `LynXzy💌`, itemCount: 999, thumbnail: fs.readFileSync('./src/RadBotZ.jpg')}}})
+     await conn.send2Button(m.chat, str, watermark, 'Owner', '.owner', 'Menu', '.menu', { key: { fromMe: false, remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { message: `Colour Your Life`, itemCount: 99999, thumbnail: fs.readFileSync('./src/Dark.jpg')}}})
 }
 handler.help = ['on', 'off'].map(v => v + ' <opsi>')
 handler.tags = ['group', 'owner']
