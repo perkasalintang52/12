@@ -31,7 +31,7 @@ const defaultMenu = {
 ╰════════════════════
 %readmore`.trimStart(),
   header: '┏━━ꕥ 𓊈 *%category* 𓊉 ꕥ━⬣',
-  body: '┃ し ⎙ %cmd %islimit %isPremium',
+  body: '┃ ☂︎ ⎙ %cmd %islimit %isPremium',
   footer: '┗━ꕥ',
   after: `
 *One Bot V. 4.15 Alpha*
@@ -259,119 +259,119 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                 "title": "⟣─────────❲ Tentang Bot dan lainnya ❳──────────⟢"
                             }, {
                                 "rows": [{
-                                    "title": `も Semua Perintah`,
+                                    "title": `☰ Semua Perintah`,
                                     "description": "Menampilkan Semua Perintah Bot",
                                     "rowId": ".menu all"
                                 }, { 
-                                    "title": "も Islam",
+                                    "title": "☰ Islam",
                                     "description": "Yuk.. Perdalam Agama Kamu..",
                                     "rowId": ".menu quran"
                                 }, { 
-                                    "title": "も Edukasi",
+                                    "title": "☰ Edukasi",
                                     "description": "For Education",
                                     "rowId": ".menu edukasi"
                                 }, { 
-                                    "title": "も News",
+                                    "title": "☰ News",
                                     "description": "Berita Hari Ini..",
                                     "rowId": ".menu News"
                                 }, { 
-                                    "title": "も Game",
+                                    "title": "☰ Game",
                                     "description": "Game Di One Botz",
                                     "rowId": ".menu game"
                                 }, { 
-                                    "title": "️も Epic Rpg",
+                                    "title": "️☰ Epic Rpg",
                                     "description": "Berpetualang Dan Bertarung",
                                     "rowId": ".menu rpg"
                                 }, { 
-                                    "title": "も XP",
+                                    "title": "☰ XP",
                                     "description": "XP Dan Game..",
                                     "rowId": ".menu xp"
                                 }, { 
-                                    "title": "も NSFW",
+                                    "title": "☰ NSFW",
                                     "description": "Lagi Puasa Woy..",
                                     "rowId": ".menu nsfw"
                                 }, { 
-                                    "title": "️も Random Image",
+                                    "title": "️☰ Random Image",
                                     "description": "Foto Foto Acak",
                                     "rowId": ".menu image"
                                 }, { 
-                                    "title": "も Stiker",
+                                    "title": "☰ Stiker",
                                     "description": "Membuat Stiker (Kadang Error)",
                                     "rowId": ".menu stiker"
                                 }, { 
-                                    "title": "も Kerang Ajaib",
+                                    "title": "☰ Kerang Ajaib",
                                     "description": "Menurut Kerang ajaib...",
                                     "rowId": ".menu kerangajaib"
                                 }, { 
-                                    "title": "も Quotes",
+                                    "title": "☰ Quotes",
                                     "description": "Menu Quotes",
                                     "rowId": ".menu quotes"
                                 }, { 
-                                    "title": "も Admin",
+                                    "title": "☰ Admin",
                                     "description": "Menu Admin Grup",
                                     "rowId": ".menu admin"
                                 }, { 
-                                    "title": "も Grup",
+                                    "title": "☰ Grup",
                                     "description": "Menu Grup",
                                     "rowId": ".menu grup"
                                 }, { 
-                                    "title": "も Premium",
+                                    "title": "☰ Premium",
                                     "description": "Only Premium",
                                     "rowId": ".menu premium"
                                 }, { 
-                                    "title": "️も Internet",
+                                    "title": "️☰ Internet",
                                     "description": "Cari Sesuatu Di Bot",
                                     "rowId": ".menu internet"
                                 }, { 
-                                    "title": "も Anonymous",
+                                    "title": "☰ Anonymous",
                                     "description": "Berbicara Dengan Orang Asing",
                                     "rowId": ".menu anonymous"
                                 }, { 
-                                    "title": "も Nulis & Logo",
+                                    "title": "☰ Nulis & Logo",
                                     "description": "Menu Nulis & Logo",
                                     "rowId": ".menu nulis"
                                 }, { 
-                                    "title": "も Downloader",
+                                    "title": "☰ Downloader",
                                     "description": "Download Sesuatu Di Bot",
                                     "rowId": ".menu downloader"
                                 }, { 
-                                    "title": "も Tools",
+                                    "title": "☰ Tools",
                                     "description": "Tools Yang Bisa di Gunakan Di Bot",
                                     "rowId": ".menu tools"
                                 }, { 
-                                    "title": "も Fun",
+                                    "title": "☰ Fun",
                                     "description": "Menu Ceria",
                                     "rowId": ".menu fun"
                                 }, { 
-                                    "title": "も Database",
+                                    "title": "☰ Database",
                                     "description": "Simpan Sesuatu Di Bot",
                                     "rowId": ".menu database"
                                 }, { 
-                                    "title": "も Vote & Absen",
+                                    "title": "☰ Vote & Absen",
                                     "description": "Menu Vote & Absen",
                                     "rowId": ".menu vote"
                                 }, { 
-                                    "title": "も️ Pengubah Suara",
+                                    "title": "☰️ Pengubah Suara",
                                     "description": "Ubah Suaramu",
                                     "rowId": ".menu audio"
                                 }, { 
-                                    "title": "も Multi Sessions",
+                                    "title": "☰ Multi Sessions",
                                     "description": "Salah Satunya Jadi Bot Sementara",
                                     "rowId": "#? jadibot"
                                 }, { 
-                                    "title": "️も Anime",
+                                    "title": "️☰ Anime",
                                     "description": "Cari Anime Di Bot",
                                     "rowId": ".menu anime"
                                 }, { 
-                                    "title": "も Info",
+                                    "title": "☰ Info",
                                     "description": "Info Tentang Bot",
                                     "rowId": ".menu info"
                                 }, { 
-                                    "title": "も Tanpa Kategori",
+                                    "title": "☰ Tanpa Kategori",
                                     "description": "Tidak Berguna",
                                     "rowId": ".menu tanpakategori"
                                 }, { 
-                                    "title": "も Owner",
+                                    "title": "☰ Owner",
                                     "description": "Fitur Khusus Owner",
                                     "rowId": ".menu owner"
                                 }],
