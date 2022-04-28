@@ -38,6 +38,7 @@ const defaultMenu = {
 *Colour Your Life*
 `,
 }
+let bzz = './src/Ara.mp3'
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 	let { anon, anticall, antispam, antitroli, backup, jadibot, groupOnly, nsfw } = global.db.data.settings[conn.user.jid]
     let totaljadibot = [...new Set([...global.conns.filter(conn => conn.user && conn.state !== 'close').map(conn => conn.user)])]
@@ -168,8 +169,6 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     'advanced': 'Advanced'
   }
 
-
-
   try {
     let package = JSON.parse(await fs.promises.readFile(path.join(__dirname, '../package.json')).catch(_ => '{}'))
     let { exp, limit, level, role, registered } = global.db.data.users[m.sender]
@@ -296,7 +295,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "rowId": ".menu image"
                                 }, { 
                                     "title": "☰ Stiker",
-                                    "description": "Membuat Stiker (Kadang Error)",
+                                    "description": "Membuat Stiker",
                                     "rowId": ".menu stiker"
                                 }, { 
                                     "title": "☰ Kerang Ajaib",
@@ -383,7 +382,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "rowId": ".owner"
                                 }, {
                                     "title": "Runtime",
-                                    "description": "",
+                                    "description": "Aktif Selama\n${uptime}",
                                     "rowId": ".runtime"
                                 }, {
                                     "title": "Kata penutup",
@@ -483,6 +482,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     await conn.send2ButtonLoc(m.chat, await(await fetch(flu + teks)).buffer(), text.trim(), `Aktif Selama : ${uptime}\n${week} ${date}`, 'Owner', `${_p}owner`, 'Donasi', `${_p}donasi`, m)
+         await conn.sendFile(m.chat, bzz, 'audio.opus', null, m, true, { duration: 1 })
   } catch (e) {
     conn.reply(m.chat, 'Error 404 x_x', m)
     throw e
