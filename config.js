@@ -1,21 +1,12 @@
 // Bismillahirrahmanirrahim
 // thank you to ALLAH Swt
-// thank you to Nurutomo as wabot-aq
-// thank you to ariffb as stikerinbot
-// thank you to botstylee
-// thank you to bochilgaming as games-wabot
-// thank you to benni ismael
-// thank you to zerochanBot
-// thank you to fernazer
-// thank you to MikeBot Dev Team
-// thank you to ALL Bot creator
 // and thanks you to who support my Bot
 let fs = require('fs')
 let chalk = require('chalk')
 
-global.linkGC = ['https://chat.whatsapp.com/EVCGfzxLWfp81n0WhmVklH', 'https://chat.whatsapp.com/FnNAbem8o6r4pgLhSdO8Q9', 'https://chat.whatsapp.com/HBhy7rVae3o0PkIfkhvs2N'] // ganti jadi group lu
-global.owner = ['6285813385281', '62858929626673', '6285892962667'] // Masukan nomot kalian
-global.mods = ['6289669349047', '6288261394557'] // Moderator
+global.linkGC = ['-', '-', '-'] // ganti jadi group lu
+global.owner = ['6281322577123', '6281322577123', '6281322577123'] // Masukan nomot kalian
+global.mods = ['6281322577123', '6281322577123'] // Moderator
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -81,18 +72,6 @@ global.watermark = '©radbotz ×፝֟͜×' //change the watermark (beberapa haru
 global.version = '𝑩𝑶𝑻 @^1.1.4'
 global.ttq = `Thanks to:
 •Allah swt
-•Nurutomo
-•Ariffb
-•IrwanX
-•Dawnfrosty
-•Beniismael
-•Raditya (owner)
-•Rasel
-•Furqan
-•Elyas
-•Atenabot  
-•Nadin
-•Aca Mirabel
 •Penyedia Layanan API
 •Orang-orang yang Berdonasi
 •My ortu
